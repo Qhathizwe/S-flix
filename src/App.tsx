@@ -5,7 +5,6 @@ export default function App() {
   return (
     <div>
       <Hero />
-      <h1>Hello World</h1>
     </div>
   )
 }

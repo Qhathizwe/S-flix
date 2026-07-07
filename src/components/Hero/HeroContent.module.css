@@ -1,0 +1,22 @@
+.HeroContent{
+    color:LIGHTGRAY;
+    /* margin-top: 270px; */
+    margin-left: 70px;
+}
+/* .PlayButton{
+
+    margin-bottom: 200px;
+    margin-left: 1000px;  
+    width: 100px;
+    height: 80px;
+    border-radius: 2px;
+    background-color: #e50914;
+} */
+.Description_playBtn
+{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+
+}

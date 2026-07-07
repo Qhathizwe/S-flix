@@ -4,13 +4,14 @@ import searchIcon from '../Hero/Hero-assets/search-icon.png';
 import The_Polygamist from '../Hero/Hero-assets/The_Polygamist.png';
 import HeroContent from './HeroContent';
 
+
 const Hero = () => {
   return (
    <nav>
     <div className={styles.Hero}>
       <div style={{backgroundImage: `url(${The_Polygamist})`, backgroundSize: "cover", backgroundPosition: "center",
          width: "100%",
-         height: "600px"
+         height: "800px"
       }}>
         <div className={styles.content}>
         <span className={styles['ham-menu']}>☰</span>
@@ -21,10 +22,9 @@ const Hero = () => {
         </span>
         <button className={styles.subscribe}>Subscribe</button>
         </div>
+          <HeroContent />
       </div>
-
-      <HeroContent />
-
+    
     </div>
    </nav>
   )
