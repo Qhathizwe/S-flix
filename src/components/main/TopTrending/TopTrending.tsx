@@ -16,6 +16,7 @@ export const TopTrending = () => {
         <h1>Top <br />
         Trending</h1>
     </ContentContainer>
+    
     <PicsContainer>
       <img src={lucy} />
       <img src={moana} />

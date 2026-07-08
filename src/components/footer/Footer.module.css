@@ -1,0 +1,37 @@
+.footer
+{
+    background-color: black;
+    color:lightgray;
+    display:flex;
+    gap: 70px;
+    padding-left:170px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo
+{
+    font-size: 30px;
+}
+.s_logo
+{
+    color: red
+}
+.email {
+    display: inline-flex;
+    gap:10px
+}
+.phone
+{
+    display: inline-flex;
+}
+.company
+{
+    display:row;
+
+}
+.Socials 
+{
+    display: inline-flex;
+    gap: 10px;
+}

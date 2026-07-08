@@ -16,7 +16,7 @@ export const LatestRelease = () => {
     </ContentContainer>
 
     <PicsContainer>
-    <img src={American_fiction}  />  
+    <img src={American_fiction} style={{minHeight:'100px', minWidth:'100px'}} />  
     <img src={A_Quiet_place} />
     <img src={jurassic_park}  />
     <img src= {the_creator} />
