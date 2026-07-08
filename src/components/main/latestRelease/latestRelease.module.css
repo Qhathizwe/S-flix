@@ -1,13 +1,10 @@
 .LR_Container
 {
     display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
     padding: 50px;
     gap: 40px;
     background-color: black;
 
 }
-/* .LR_Content
-{
-    display: inline-flex;
-    
-} */
