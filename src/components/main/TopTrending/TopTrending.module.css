@@ -1,13 +1,7 @@
-.LR_Container
+.TopTrending_Content
 {
     display: flex;
     padding: 50px;
     gap: 40px;
     background-color: black;
-
 }
-/* .LR_Content
-{
-    display: inline-flex;
-    
-} */
