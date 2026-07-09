@@ -4,10 +4,11 @@
     color:lightgray;
     display:flex;
     gap: 70px;
-    padding-left:170px;
+    padding-left:50px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 100px;
 }
 .logo
 {
