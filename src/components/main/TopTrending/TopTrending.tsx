@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { ContentContainer } from '../Content&Pics_Container/ContentContainer'
 import styles  from './TopTrending.module.css'
 import { PicsContainer } from '../Content&Pics_Container/PicsContainer'

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import styles from './Hero.module.css'
 import searchIcon from '../Hero/Hero-assets/search-icon.png';
 import The_Polygamist from '../Hero/Hero-assets/The_Polygamist.png';

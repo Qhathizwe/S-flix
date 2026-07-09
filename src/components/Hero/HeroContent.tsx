@@ -1,4 +1,4 @@
-import React from 'react'
+
 import styles from './HeroContent.module.css'
 import NextArrow from '../Hero/Hero-assets/next-button.png';
 import PrevArrow from '../Hero/Hero-assets/back.png';

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { ContentContainer } from '../Content&Pics_Container/ContentContainer'
 import styles from './SelectGenre.module.css'
 

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import styles from './Footer.module.css'
 import email_icon from '../../components/footer/footer assets/email-5-24.png'
 import phone_icon from '../../components/footer/footer assets/phone-24.png'

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Hero  from './components/Hero/Hero'
 import LatestRelease from './components/main/latestRelease/latestRelease'
 import './App.css'

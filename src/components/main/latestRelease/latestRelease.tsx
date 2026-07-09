@@ -1,4 +1,4 @@
-import React from 'react'
+
 import styles from './latestRelease.module.css'
 import American_fiction from '../../../assets/movies/Latest Realease/American-fiction.jpeg'
 import A_Quiet_place from '../../../assets/movies/Latest Realease/A quiet place.jpg'
