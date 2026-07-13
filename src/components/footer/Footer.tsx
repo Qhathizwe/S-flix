@@ -11,9 +11,9 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div >
-        <h2 className={styles.logo}><span className={styles.s_logo}>S-</span>flix</h2> <br /> <br/>
+        <h2 className={styles.logo}><span className={styles.s_logo}>S-</span>flix</h2> <br /> 
         <div className={styles.contacts}>
-            <span className={styles.email}><img src={email_icon}/> <h3>sphoswa2@gmail.com</h3></span> <br /> <br/>
+            <span className={styles.email}><img src={email_icon}/> <h3>sphoswa2@gmail.com</h3></span> <br /> 
             <span className={styles.phone}><img src={phone_icon}/> <h3>0699342225</h3></span>
         </div>
       </div>

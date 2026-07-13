@@ -1,0 +1,10 @@
+.app-container
+{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    box-sizing: border-box;
+    height: 100vh;
+    min-width: 1200px;
+
+}

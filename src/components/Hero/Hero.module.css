@@ -1,27 +1,30 @@
 
-*
+.HeroImage
 {
-    margin: 0;
-    padding: 0;
-    
-
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    background-size: cover;
 }
+
 
 nav
 {
     color: white;
-    height: 10%;;
+    height: 10%;
+    display: flex;
+    /* justify-content: space-between; */
 }
 .content
 {
     display: flex;
     align-items: center;
-    gap: 100px;
     width: 100%;
+    justify-content: space-around;
 }
 .ham-menu
 {
-    margin-left: 50px;
+    margin-left: 0;
     width: 30px;
     cursor: pointer;
     font-size: 30px;
@@ -32,13 +35,17 @@ nav
     font-size: 30px;
     font-weight: bold;
     font-family:'segoe ui', sans-serif;
-    margin-left: 750px
 
 
 }
 .logo-S
 {
     color: #e50914;
+}
+.search-btn{
+    display: flex;
+    text-align: center;
+
 }
 .search-bar
 {
@@ -47,7 +54,6 @@ nav
     cursor: pointer;
     top: 5px;
     bottom: 15px;
-    margin-left: 450px;
     margin-top: 5px;
     margin-bottom: 50px;
 }
@@ -55,8 +61,8 @@ nav
 {
     background-color: rgb(230, 7, 7);
     color: white;
-    /* margin-left: 100px; */
-    margin-top: 10px;
+    margin-left: 100px;
+     margin-top: 10px;
     margin-right: 5px;
     font-weight:bolder;
     font-size: 20px;
@@ -65,5 +71,5 @@ nav
     border-radius: 10px;
     text-decoration: none;
     cursor: pointer;
-}
+} 
 

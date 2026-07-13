@@ -7,26 +7,27 @@ import HeroContent from './HeroContent';
 
 const Hero = () => {
   return (
-   <nav>
-    <div className={styles.Hero}>
-      <div style={{backgroundImage: `url(${The_Polygamist})`, backgroundSize: "cover", backgroundPosition: "center",
-         width: "100%",
-         height: "800px"
-      }}>
+
+    <section className={styles.HeroContainer}>
+      <div className={styles.HeroImage} style={{backgroundImage: `url(${The_Polygamist})`, backgroundSize: 'cover', height: '800px'}}>
+        <nav>
         <div className={styles.content}>
         <span className={styles['ham-menu']}>☰</span>
         <h2 className={styles.logo}>
         <span className={styles['logo-S']}>S-</span>flix.</h2>
-        <span className={styles['search-bar']}>
-            <img src={searchIcon} alt='Search-icon' />
-        </span>
-        <button className={styles.subscribe}>Subscribe</button>
+          <div className={styles['search-btn']}>
+          <span className={styles['search-bar']}>
+              <img src={searchIcon} alt='Search-icon' />
+          </span>
+          <button className={styles.subscribe}>Subscribe</button>
         </div>
-          <HeroContent />
+        </div>
+        </nav>
+        <HeroContent />
       </div>
     
-    </div>
-   </nav>
+    </ section>
+  
   )
 }
 
