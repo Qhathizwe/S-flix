@@ -130,3 +130,155 @@
     height: 200px;
 }
 }
+
+/* media query for 768px (tablet) */
+@media (width >= 768px){
+.LR_Content{
+    gap: 10px;
+    margin-left: 20px;
+}
+.LR_Topic
+{
+    font-size: 20px;
+}
+.LR_pics
+{
+    gap: 5px;
+    width: 100px;
+    height:180px;
+}
+.TT_Content
+{
+    gap: 10px;
+    margin-left: 20px
+}  
+.TT_Topic
+{
+font-size: 20px;
+} 
+.TT_pics
+{
+    gap: 5px;
+    width: 100px;
+    height:180px;
+}  
+
+.SG_Content
+{
+    gap: 10px;
+   
+}
+.SG_Topic
+{
+  margin-right: 50px;
+  font-size: 20px;
+}
+.SG_pics
+{
+    gap: 5px;
+}
+.romantic
+{
+    gap: 5px;
+    width: 100px;
+    height:180px;
+}
+.romanticComedy
+{
+     gap: 5px;
+    width: 100px;
+    height:180px;
+}
+.thriller
+{
+     gap: 5px;
+    width: 100px;
+    height:180px;
+}
+.comedy{
+     gap: 5px;
+    width: 100px;
+    height:180px;
+}
+.adventure
+{
+    gap: 5px;
+    width: 100px;
+    height:180px;
+}
+
+}
+
+/* media query for 320px (mobile) */
+@media (width <= 320px){
+.LR_Content{
+    gap: 5px;
+    margin-left: 5px;
+    
+}
+.LR_Topic
+{
+    font-size: 12px;
+}
+.LR_pics
+{
+    gap: 5px;
+    width: 35px;
+    height:70px;
+}
+.TT_Content
+{
+    gap: 5px;
+    margin-left: 5px;
+}  
+.TT_Topic
+{
+font-size: 12px;
+} 
+.TT_pics
+{
+    gap: 5px;
+    width: 35px;
+    height:70px;
+
+}
+
+.SG_Content{
+    gap: 5px;
+    margin-right: 50px;
+}
+.SG_Topic
+{
+  font-size: 12px;
+}
+.SG_pics
+{
+    gap: 5px;
+}
+.romantic
+{
+    width: 35px;
+    height:70px
+}
+.romanticComedy
+{
+    width: 35px;
+    height:70px
+}
+.thriller
+{
+    width: 35px;
+    height:70px
+}
+.comedy{
+    width: 35px;
+    height:70px
+}
+.adventure
+{
+    width: 35px;
+    height:70px
+}
+
+}
+

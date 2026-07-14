@@ -73,6 +73,14 @@
 }
 }
 
+/* media query for 768px (tablet) */
+@media (width >= 768px){
+
+.HeroContent {
+    margin-top: 100px;
+}
+}
+
 /* @media width: 375px */
 @media (max-width: 375px){
 .HeroContent{

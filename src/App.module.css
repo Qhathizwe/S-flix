@@ -13,6 +13,18 @@
     height: 100vh;
 }
 
-@media (width >= 1024){
+/* media query for 1024px (desktop) */
+@media (width >= 1024px){
     
+}
+
+/* media query for 768px (tablet) */
+@media (width >= 768px){
+
+
+}
+
+/* media query for 320px (mobile) */
+@media (width >= 320px){
+
 }
