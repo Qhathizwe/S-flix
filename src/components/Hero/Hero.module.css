@@ -73,3 +73,139 @@ nav
     cursor: pointer;
 } 
 
+
+/*@media  width: 1280px */
+
+@media (max-width: 1280px){
+    .HeroImage
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    background-size: cover;
+    width: 100vw;
+}
+
+.search-btn{
+    margin-left: 250px;
+
+}
+.logo
+{
+    font-size: 30px;
+    margin-left: 350px;
+}
+}
+
+
+/* @media width: 1024px */
+@media (max-width: 1024px){
+.HeroImage
+{
+    width: 90%;
+    height: 20vh
+}
+
+.search-btn{
+    display: flex;
+    text-align: center;
+    margin-left: 80px;
+
+}
+.logo
+{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'segoe ui', sans-serif;
+    margin-left: 220px;
+}
+}
+
+/* @media width: 853px */
+@media (max-width: 853px){
+.HeroImage
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    background-size: cover;
+    width: 70%;
+}
+.search-btn{
+    display: flex;
+    text-align: center;
+    margin-left: 150px;
+
+}
+.logo
+{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'segoe ui', sans-serif;
+    margin-left: 200px;
+}
+}
+
+/* @media width: 375px */
+@media (max-width: 375px){
+.HeroImage
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    background-size: cover;
+    width: 30%;
+}
+
+.search-btn{
+    display: flex;
+    text-align: center;
+    margin-left: 30px;
+
+}
+.logo
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'segoe ui', sans-serif;
+    margin-left: 20px;
+}
+.subscribe
+{
+    background-color: rgb(230, 7, 7);
+    color: white;
+    margin-left: 80px;
+     margin-top: 10px;
+    margin-right: 5px;
+    font-weight:bolder;
+    font-size: 10px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+} 
+.search-bar
+{
+    width: 1px;
+    height:1px;
+    margin-left: 10px;
+
+}
+.content
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content:space-between;
+}
+.ham-menu
+{
+    margin-left: 0;
+    width: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: grey;
+    margin-left: 10px;
+}
+}

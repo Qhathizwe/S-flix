@@ -99,3 +99,62 @@
     background-color: aquamarine;
     color: white;
 }
+
+@media (max-width: 1280px){
+.LR_Content{
+    gap: 90px;
+    margin-left: 50px;
+}
+.LR_Topic
+{
+  font-size: 20px;
+ 
+}
+.LR_pics
+{
+    gap: 5px;
+    width: 100px;
+    height: 200px;
+}
+.TT_Content
+{
+    gap: 90px;
+    margin-left: 50px;
+}
+.TT_pics{
+    gap: 5px;
+    width: 100px;
+    height: 200px 
+}
+.SG_Content
+{
+    gap: 90px;
+    margin-left: 50px;
+    
+}
+.romantic
+{
+       width: 100px;
+    height: 200px 
+}
+.romanticComedy
+{
+      width: 100px;
+    height: 200px 
+}
+.thriller
+{
+    width: 100px;
+    height: 200px ;
+}
+.comedy{
+        width: 100px;
+    height: 200px 
+}
+.adventure
+{
+      width: 100px;
+    height: 200px 
+}
+
+}

@@ -13,3 +13,93 @@
     width: 100%;
 
 }
+.netflix
+{
+    font-family: Anton, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.author
+{
+    color: green;
+     font-family: Anton, sans-serif;
+     font-weight: 400;
+     font-style: normal;
+}
+.title
+{
+    font-Family: Bebas Neue, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+     font-size: 50px;
+}
+.description
+{
+    font-size:medium;
+}
+
+/* @media width: 1024px */
+@media (max-width: 1024px){
+.HeroContent{
+    margin-left: 50px;
+    margin-top: 180px;
+}
+.Description_playBtn
+{
+    gap: 70px;
+    width: 90%;
+
+}
+.streaming
+{
+    font-size: 20px ;
+}
+.description
+{
+    font-size: 17px;
+}
+.PlayButton
+{
+    width: 100px;
+    height: 80px;
+}
+}
+
+/* @media width: 375px */
+@media (max-width: 375px){
+.HeroContent{
+    margin-left: 10px;
+    margin-top: 100px;
+
+.Description_playBtn
+{
+    gap: 10px;
+    width: 70%;
+
+}
+    
+.netflix{
+    font-size: small;
+}    
+
+.author
+{
+    font-size: small;
+}
+.title
+{
+     font-size: 20px;
+}
+.PlayButton
+{
+    width: 5px;
+    height: 5px
+}
+.description
+{
+    font-size:small;
+}
+.streaming{
+    font-size: 12px;
+}
+}

@@ -1,7 +1,7 @@
 
 import styles from './Hero.module.css'
-import searchIcon from '../Hero/Hero-assets/search-icon.png';
-import The_Polygamist from '../Hero/Hero-assets/the_polygamist.png';
+import searchIcon from './Hero-assets/search-icon.png';
+import The_Polygamist from './Hero-assets/the_polygamist.png';
 import HeroContent from './HeroContent';
 
 
