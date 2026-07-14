@@ -1,6 +1,6 @@
 
 import Hero  from './components/Hero/Hero'
-import  './App.css'
+import  './App.module.css'
 import Footer from './components/footer/Footer'
 import { MainContent } from './components/main/MainContent'
 

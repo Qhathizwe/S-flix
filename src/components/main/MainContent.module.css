@@ -16,6 +16,9 @@
 {
     color:red;
     font-size: 30px;
+    font-Family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .LR_pics
 {
@@ -30,13 +33,16 @@
 {
     display: flex;
     gap:50px;
-    margin-left: 90px;
+    margin-left: 80px;
     padding-top: 70px;
 }
 .TT_Topic
 {
     color: red;
     font-size: 30px;
+    font-Family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .TT_pics
 {
@@ -50,111 +56,77 @@
 .SG_Content
 {
     display: flex;
-    gap: 60px;
-    padding-top: 70px
+    gap: 50px;
+    padding-top: 70px;
+    padding-left: 80px;
+    padding-bottom: 50px;
 }
 .SG_Topic
 {
     color:red;
     font-size: 30px;
-    margin-left: 80px;
+    font-Family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .SG_pics
 {
     display: flex;
-    gap: 15px;
+    gap: 10px;
 
 }
 .romantic
 {
     background-color: red;
     color: white;
-    width: 160px;
+    width: 150px;
     height: 250px;
+    font-size: 15px;
+    padding: 10px 10px;
 }
 .romanticComedy
 {
     background-color: purple;
     color: white;
-    width: 160px;
+    width: 150px;
     height: 250px;
+    font-size: 15px;
+    padding: 10px 10px;
 }
 .thriller
 {
     background-color: darkcyan;
     color: white;
-    width: 160px;
+    width: 150px;
     height: 250px;
+    font-size: 15px;
+    padding: 10px 10px;
 }
 .comedy{
     background-color:darkgoldenrod;
     color: white;
-    width: 160px;
+    width: 150px;
     height: 250px;
+    font-size: 15px;
+    padding: 10px 10px;
 }
 .adventure
 {
-    width: 160px;
+    width: 150px;
     height: 250px;
     background-color: aquamarine;
     color: white;
+    font-size: 15px;
+    padding: 10px 10px;
 }
 
-@media (max-width: 1280px){
-.LR_Content{
-    gap: 90px;
-    margin-left: 50px;
-}
-.LR_Topic
-{
-  font-size: 20px;
- 
-}
-.LR_pics
-{
-    gap: 5px;
-    width: 100px;
+@media (width >= 1024px){
+.LR_pics{
+    width: 120px;
     height: 200px;
 }
-.TT_Content
-{
-    gap: 90px;
-    margin-left: 50px;
-}
 .TT_pics{
-    gap: 5px;
-    width: 100px;
-    height: 200px 
+    width: 120px;
+    height: 200px;
 }
-.SG_Content
-{
-    gap: 90px;
-    margin-left: 50px;
-    
-}
-.romantic
-{
-       width: 100px;
-    height: 200px 
-}
-.romanticComedy
-{
-      width: 100px;
-    height: 200px 
-}
-.thriller
-{
-    width: 100px;
-    height: 200px ;
-}
-.comedy{
-        width: 100px;
-    height: 200px 
-}
-.adventure
-{
-      width: 100px;
-    height: 200px 
-}
-
 }

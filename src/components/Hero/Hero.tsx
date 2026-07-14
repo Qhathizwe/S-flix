@@ -9,7 +9,7 @@ const Hero = () => {
   return (
 
     <section className={styles.HeroContainer}>
-      <div className={styles.HeroImage} style={{backgroundImage: `url(${The_Polygamist})`, backgroundSize: 'cover', height: '800px'}}>
+      <div className={styles.HeroImage} style={{backgroundImage: `url(${The_Polygamist})`}}>
         <nav>
         <div className={styles.content}>
         <span className={styles['ham-menu']}>☰</span>

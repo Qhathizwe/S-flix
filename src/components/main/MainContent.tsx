@@ -17,7 +17,7 @@ export const MainContent = () => {
     <>
    <div className={styles.MainSection}>
      <section className={styles.LR_Content}>
-      <h1 className={styles.LR_Topic}>Latest <br /> Releases</h1>
+      <h1 className={styles.LR_Topic}>LATEST <br /> RELEASES</h1>
 
       <div className={styles.LR_pics}>
         <img src={American_fiction}  />
@@ -29,7 +29,7 @@ export const MainContent = () => {
      </section>
 
      <section className={styles.TT_Content}>
-        <h1 className={styles.TT_Topic}>Top <br /> Trending</h1>
+        <h1 className={styles.TT_Topic}>TOP <br /> TRENDING</h1>
 
         <div className={styles.TT_pics}>
           <img src={lucy} />
@@ -41,7 +41,7 @@ export const MainContent = () => {
      </section>
 
      <section className={styles.SG_Content}>
-          <h1 className={styles.SG_Topic}>Top <br />Trending</h1>
+          <h1 className={styles.SG_Topic}>SELECT <br />GENRE</h1>
     <div className={styles.SG_pics}>
         <h2 className={styles.romantic}>ROMANTIC</h2>
         <h2 className={styles.romanticComedy}>Romentic <br /> Comedy</h2>
