@@ -19,7 +19,7 @@ const HeroContent = () => {
           <h3 className={styles.year}> 2026 . 1 Season 22 Episodes . Multi Language . Drama </h3>
         </div>
          
-        <div className={styles.Description_playBtn}>
+        <div className={styles.Description_playBtn} style={{width: '100%'}}>
         <p  className={styles.description}>
            The Polygamist is a South African drama series with strong elements <br /> 
            of a telenovela, melodrama, and romantic thriller. Adapted from Sue <br /> 

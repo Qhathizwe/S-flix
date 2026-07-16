@@ -118,165 +118,108 @@
     width: 220px;
 }
 
-/* @media (width >= 1024px){
-.LR_pics{
+
+/* .LR_pics{
     width: 120px;
     height: 200px;
 }
 .TT_pics{
     width: 120px;
     height: 200px;
-}
 } */
 
+
 /* media query for 768px (tablet) */
-/* @media (width >= 768px){
+/* @media (width >= 767px) and (width <= 1024) {
 .LR_Content{
-    gap: 10px;
-    margin-left: 20px;
+    gap: 5px;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100vh;
 }
 .LR_Topic
 {
-    font-size: 20px;
+    font-size: 18px;
+    width: 20%;
 }
 .LR_pics
 {
     gap: 5px;
-    width: 100px;
-    height:180px;
+    width: 80%;
+    flex-wrap: wrap;
+}
+.LR_pics img{
+    width: 50px;
+    height: 100px;
 }
 .TT_Content
 {
-    gap: 10px;
-    margin-left: 20px
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
 }  
 .TT_Topic
 {
-font-size: 20px;
+font-size: 18px;
+width: 20%;
 } 
-.TT_pics
+.TT_pics img
 {
-    gap: 5px;
-    width: 100px;
-    height:180px;
+    width: 80%;
+    flex-wrap: wrap;
+    width: 60px;
+    height:120px;
 }  
 
-.SG_Content
-{
-    gap: 10px;
-   
-}
-.SG_Topic
-{
-  margin-right: 50px;
-  font-size: 20px;
-}
-.SG_pics
-{
-    gap: 5px;
-}
-.romantic
-{
-    gap: 5px;
-    width: 100px;
-    height:180px;
-}
-.romanticComedy
-{
-     gap: 5px;
-    width: 100px;
-    height:180px;
-}
-.thriller
-{
-     gap: 5px;
-    width: 100px;
-    height:180px;
-}
-.comedy{
-     gap: 5px;
-    width: 100px;
-    height:180px;
-}
-.adventure
-{
-    gap: 5px;
-    width: 100px;
-    height:180px;
-}
+
 
 } */
 
 /* media query for 320px (mobile) */
-/* @media (width <= 320px){
+ @media (width >= 375px) and (width <= 766px) {
 .LR_Content{
-    gap: 5px;
-    margin-left: 5px;
-    
+    display: flex;
+    height: 100vh;
 }
 .LR_Topic
 {
-    font-size: 12px;
+    font-size: 18px;
+    width: 20%;
 }
-.LR_pics
+.LR_pics{
+    flex-wrap: wrap;
+    width:80%;
+    gap:2px
+    
+}
+.LR_pics img
 {
-    gap: 5px;
-    width: 35px;
-    height:70px;
+    flex-wrap: wrap;
+    width:50px;
+    height: 100px
 }
 .TT_Content
 {
-    gap: 5px;
-    margin-left: 5px;
+   display: flex;
+    height: 100vh; 
 }  
 .TT_Topic
 {
-font-size: 12px;
+ font-size: 18px;
+ width: 20%;
 } 
 .TT_pics
 {
-    gap: 5px;
-    width: 35px;
-    height:70px;
+    flex-wrap: wrap;
+    width:80%;
+    gap:2px
 
 }
-
-.SG_Content{
-    gap: 5px;
-    margin-right: 50px;
-}
-.SG_Topic
-{
-  font-size: 12px;
-}
-.SG_pics
-{
-    gap: 5px;
-}
-.romantic
-{
-    width: 35px;
-    height:70px
-}
-.romanticComedy
-{
-    width: 35px;
-    height:70px
-}
-.thriller
-{
-    width: 35px;
-    height:70px
-}
-.comedy{
-    width: 35px;
-    height:70px
-}
-.adventure
-{
-    width: 35px;
-    height:70px
+.TT_pics img{
+    flex-wrap: wrap;
+    width:50px;
+    height: 100px
 }
 
-} */
+} 
 
