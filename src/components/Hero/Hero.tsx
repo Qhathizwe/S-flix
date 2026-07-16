@@ -12,9 +12,11 @@ const Hero = () => {
       <div className={styles.HeroImage} style={{backgroundImage: `url(${The_Polygamist})`}}>
         <nav>
         <div className={styles.content}>
-        <span className={styles['ham-menu']}>☰</span>
-        <h2 className={styles.logo}>
-        <span className={styles['logo-S']}>S-</span>flix.</h2>
+        <div className={styles.ham_logo}>
+          <span className={styles['ham-menu']}>☰</span>
+          <h2 className={styles.logo}>
+          <span className={styles['logo-S']}>S-</span>flix.</h2>
+        </div>
           <div className={styles['search-btn']}>
           <span className={styles['search-bar']}>
               <img src={searchIcon} alt='Search-icon' />

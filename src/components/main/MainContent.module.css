@@ -5,17 +5,20 @@
     box-sizing: border-box;
     background-color: black;
     padding-top: 100px;
+    flex-wrap: wrap;
 }
 .LR_Content
 {
     display: flex;
-    gap: 50px;
-    margin-left: 80px;
+    width: 100%;
+    /* flex-wrap: wrap; */
 }
 .LR_Topic
 {
     color:red;
-    font-size: 30px;
+    text-align: center;
+    width: 30%;
+    font-size: 40px;
     font-Family: 'Bebas Neue', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -23,23 +26,28 @@
 .LR_pics
 {
     display: flex;
-    gap: 10px;
-    width: 140px;
-    height: 240px;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    width: 70%;
+    height: 300px;
+    border: 5px solid red;
 }
 
 
 .TT_Content
 {
     display: flex;
-    gap:50px;
-    margin-left: 80px;
+    text-align: center;
+    width: 100%;
     padding-top: 70px;
+    /* flex-wrap: wrap; */
 }
 .TT_Topic
 {
+    width: 30%;
+    text-align: center;
     color: red;
-    font-size: 30px;
+    font-size: 40px;
     font-Family: 'Bebas Neue', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -47,80 +55,70 @@
 .TT_pics
 {
     display: flex;
-    width: 150px;
-    height: 250px;
-    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 300px;
+    border: 5px solid red;
 }
 
 
 .SG_Content
 {
+    width:100%;
     display: flex;
-    gap: 50px;
     padding-top: 70px;
-    padding-left: 80px;
     padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 .SG_Topic
 {
+    width: 30%;
+    text-align: center;
+    border: 5px solid yellow;
     color:red;
-    font-size: 30px;
+    font-size: 40px;
     font-Family: 'Bebas Neue', sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 .SG_pics
 {
+    width: 70%;
     display: flex;
-    gap: 10px;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap: 5px;
+    height: 300px;
+    font-size: 15px;
+    color: white;
+    border: 5px solid red;
 
 }
 .romantic
 {
     background-color: red;
-    color: white;
-    width: 150px;
-    height: 250px;
-    font-size: 15px;
-    padding: 10px 10px;
+    width: 220px;
 }
 .romanticComedy
 {
     background-color: purple;
-    color: white;
-    width: 150px;
-    height: 250px;
-    font-size: 15px;
-    padding: 10px 10px;
+    width: 220px;
 }
 .thriller
 {
     background-color: darkcyan;
-    color: white;
-    width: 150px;
-    height: 250px;
-    font-size: 15px;
-    padding: 10px 10px;
-}
-.comedy{
-    background-color:darkgoldenrod;
-    color: white;
-    width: 150px;
-    height: 250px;
-    font-size: 15px;
-    padding: 10px 10px;
-}
-.adventure
-{
-    width: 150px;
-    height: 250px;
-    background-color: aquamarine;
-    color: white;
-    font-size: 15px;
-    padding: 10px 10px;
+    width: 220px;
+
 }
 
-@media (width >= 1024px){
+.adventure
+{
+    background-color: rgb(255, 193, 38);
+    width: 220px;
+}
+
+/* @media (width >= 1024px){
 .LR_pics{
     width: 120px;
     height: 200px;
@@ -129,10 +127,10 @@
     width: 120px;
     height: 200px;
 }
-}
+} */
 
 /* media query for 768px (tablet) */
-@media (width >= 768px){
+/* @media (width >= 768px){
 .LR_Content{
     gap: 10px;
     margin-left: 20px;
@@ -207,10 +205,10 @@ font-size: 20px;
     height:180px;
 }
 
-}
+} */
 
 /* media query for 320px (mobile) */
-@media (width <= 320px){
+/* @media (width <= 320px){
 .LR_Content{
     gap: 5px;
     margin-left: 5px;
@@ -280,5 +278,5 @@ font-size: 12px;
     height:70px
 }
 
-}
+} */
 

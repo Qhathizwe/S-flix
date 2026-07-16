@@ -20,11 +20,10 @@ export const MainContent = () => {
       <h1 className={styles.LR_Topic}>LATEST <br /> RELEASES</h1>
 
       <div className={styles.LR_pics}>
-        <img src={American_fiction}  />
-        <img src={A_Quiet_place} />
-        <img src={jurassic_park}  />
-        <img src= {the_creator} />
-        <img src={Mission_Impossible}  />
+        <img src={American_fiction} style={{width: '220px'}}  />
+        <img src={A_Quiet_place} style={{width: '220px'}}/>
+        <img src={jurassic_park}  style={{width: '220px'}}/>
+        <img src= {the_creator} style={{width: '220px'}}/>
       </div>
      </section>
 
@@ -32,11 +31,10 @@ export const MainContent = () => {
         <h1 className={styles.TT_Topic}>TOP <br /> TRENDING</h1>
 
         <div className={styles.TT_pics}>
-          <img src={lucy} />
-          <img src={moana} />
-          <img src={minions} />
-          <img src={pussIn_boots} />
-          <img src={scream} />
+          <img src={moana} style={{width: '220px'}}/>
+          <img src={minions} style={{width: '220px'}}/>
+          <img src={pussIn_boots} style={{width: '220px'}}/>
+          <img src={scream} style={{width: '220px'}}/>
         </div>
      </section>
 
@@ -46,7 +44,6 @@ export const MainContent = () => {
         <h2 className={styles.romantic}>ROMANTIC</h2>
         <h2 className={styles.romanticComedy}>Romentic <br /> Comedy</h2>
         <h2 className={styles.thriller}>THRILLER</h2>
-        <h2 className={styles.comedy}>COMEDY</h2>
         <h2 className={styles.adventure}>ADVENTURE</h2>
         </div>
      </section>

@@ -45,13 +45,13 @@ h3 {
     gap: 10px;
 }
 
-@media (width>= 1024px){
+/* @media (width>= 1024px){
     
-}
+} */
 /* media query for 320px (mobile) */
-@media (min-width: 320px){
+/* @media (min-width: 320px){
 .footer{
     display: flex;
     flex-direction: column;
 }
-}
+} */
