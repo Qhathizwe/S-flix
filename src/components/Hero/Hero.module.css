@@ -14,7 +14,6 @@ nav
     height: 10%;
     display: flex;
     flex-wrap: wrap;
-    border: 5px solid red;
 }
 .content
 {
@@ -32,7 +31,6 @@ nav
     cursor: pointer;
     font-size: 30px;
     color: grey;
-    border: 5px solid white;
     width: 50%;
 }
 .logo
@@ -43,7 +41,6 @@ nav
     font-family:'segoe ui', sans-serif;
     width: 50%;
     align-content:end;
-    border: 5px solid blue;
 }
 .logo-S
 {
@@ -51,7 +48,6 @@ nav
 }
 .ham_logo{
      width: 70%;
-     border: 5px solid yellow;
      display: flex;
      align-items: center;
 
@@ -62,7 +58,6 @@ nav
     justify-content:space-between;
     width: 30%;
     height: 100%;
-    border: 5px solid aqua;
 
 }
 .search-bar
@@ -70,7 +65,6 @@ nav
     width: 50%;
     cursor: pointer;
     align-content: center;
-    border: 5px solid green;
 }
 .search-bar img {
     width: 30px;
@@ -88,7 +82,6 @@ nav
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-    border: 5px solid purple;
 } 
 
 .subscribe:hover {

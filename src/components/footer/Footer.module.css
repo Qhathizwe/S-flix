@@ -4,7 +4,7 @@
     color:lightgray;
     display:flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -50,8 +50,8 @@ h3 {
     
 } */
 /* media query for 320px (mobile) */
-@media (min-width: 320px){
+/* @media (min-width: 320px){
 .footer .logo{
     margin: 0;
 }
-}
+} */

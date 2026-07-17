@@ -2,9 +2,9 @@ import American_fiction from '../../assets/movies/Latest Realease/American-ficti
 import A_Quiet_place from '../../assets/movies/Latest Realease/A quiet place.jpg'
 import jurassic_park from '../../assets/movies/Latest Realease/jurassic-park.jpg'
 import the_creator from '../../assets/movies/Latest Realease/the-creater.jpg'
-import Mission_Impossible from '../../assets/movies/Latest Realease/Mission_Impossible.jpg'
 
-import lucy from '../../assets/movies/Top Trending/lucy.jpg'
+
+
 import moana from '../../assets/movies/Top Trending/maona.jpg'
 import minions from '../../assets/movies/Top Trending/minoins.webp'
 import pussIn_boots from '../../assets/movies/Top Trending/puss-in-boots.webp'
